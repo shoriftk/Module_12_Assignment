@@ -7,5 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Trip extends Model
 {
-    use HasFactory;
+
+
+    protected $fillable = [
+        'from', 'to', 'paribahan_name', 'total_seats', 'date_of_journey',
+        'ticket_fare', 'dep_time', 'arr_time'
+    ];
+
+
 }
