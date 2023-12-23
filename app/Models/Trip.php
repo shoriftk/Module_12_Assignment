@@ -9,10 +9,10 @@ class Trip extends Model
 {
 
 
-    protected $fillable = [
-        'from', 'to', 'paribahan_name', 'total_seats', 'date_of_journey',
-        'ticket_fare', 'dep_time', 'arr_time'
-    ];
-
+    // //protected $fillable = [
+    //     'from', 'to', 'paribahan_name', 'total_seats', 'journey_date',
+    //     'ticket_fare', 'dep_time', 'arr_time'
+    // ];
+protected $guarded= [];
 
 }
